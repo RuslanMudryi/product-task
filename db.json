@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "name": "Product 2",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "300g",
+      "comments": [
+        1,
+        2
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "productId": 1,
+      "description": "Great product!",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": "2",
+      "productId": 1,
+      "description": "Nice quality.",
+      "date": "15:30 23.08.2021"
+    },
+    {
+      "id": "3",
+      "productId": 2,
+      "description": "Not bad, but could be better.",
+      "date": "16:45 24.08.2021"
+    }
+  ]
+}
